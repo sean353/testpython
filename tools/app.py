@@ -6,20 +6,12 @@ from simp import add_num, substract_num
 def main():
     
     
+
     result =add_num(0,1 )
     print("sum:",result)
 
     result = substract_num(0,1)
     print("sum:",result)
-
-    number1 = 3443
-    number2 = 3223
-
-    result1 = ispal(number1)
-    result2 = ispal(number2)
-
-    print(result1)  # This should print True
-    print(result2)  # This should print True as well
 
 
 
@@ -30,6 +22,14 @@ def main():
     # Example usage of ispal numbers
 
     
+    number1 = 3443
+    number2 = 3223
+
+    result1 = ispal(number1)
+    result2 = ispal(number2)
+
+    print(result1)  # This should print True
+    print(result2)  # This should print True as well
 
 list1 = [1, 2, 3]
 tuple1 = ('a', 'b', 'c')
